@@ -1,0 +1,447 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #0773FA;
+    font-size: 16px;
+    width: 1440px;
+    min-width: 960px;
+    max-width: 1280px;
+}
+
+::selection{
+    background: black;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    transition: color .2s linear;
+}
+a:hover{
+    color: aquamarine;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-transform: initial;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    text-transform: initial;
+    color: #fff;
+}
+
+ul,li{
+    display: block;
+    list-style: none;
+}
+
+
+
+
+/* header-section */
+.header{
+    margin-left: 153px;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header__logo{
+    position: absolute;
+    width: 139.09px;
+    height: 33px;
+    left: 154px;
+    top: 20px;
+}
+
+
+
+.header__link{
+    display: flex;
+    color: #fff;
+    text-transform: initial;
+    text-decoration: none;
+    padding-right: 49px;
+    width: auto;
+    padding-top: 25px;
+    font-style: normal;
+    font-weight: 500;
+
+    transition: color .2s linear;
+}
+
+.header__link:hover{
+    color: aquamarine;
+}
+
+
+.header__button{
+    position: absolute;
+    width: 135px;
+    height: 39px;
+    top: 14px;
+    left: 1157px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: transparent;
+}
+.header__button span{
+    color: #000;
+}
+
+.header__button:hover{
+    background: #fff;
+}
+
+
+
+
+
+
+.nav{
+    display: flex;
+}
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* title */
+.main-title{
+    text-align: center;
+    margin: 168px 325px 0 325px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 80px;
+}
+
+/* subtitle */
+
+.subtitle{
+    font-family: Mulish;
+    text-align: center;
+    font-size: 21px;
+    line-height: 28px;
+    margin: 20px 376px 554px 200px;
+    position: absolute;
+    height: 56px;
+    width: 684px;
+    padding-bottom: 42px;
+}
+
+.subtitle__link{
+    color: #033573;
+    text-decoration: none;
+}
+
+
+/* sponsors */
+.sponsors img{
+    background: #fff;
+    border-radius: 6px;
+    width: 179px;
+    height: 71px;
+    transform: translate(0, 14px);
+}
+
+.sponsors{
+    margin-top: 120px;
+    margin-left: 350px;
+    
+}
+
+.sponsors__text{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600px;
+    text-align: start;
+    margin-left: 35px;
+}
+
+.DEX-Listing{
+    transform: translate(0,30px);
+}
+.DEX-Listing-images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 498px;
+    transform: translate(0,-125px);
+}
+
+.DEX-Listing-text{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600px;
+    text-align: start;
+    margin-left: 335px;
+    transform: translate(0,-120px);
+    
+}
+
+.DEX-Listing img{
+     margin-bottom: 18px;
+     display: inline-block;
+}
+
+.new-to-avalanche-text{
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    transform: translate(-120px,0);
+    margin-bottom: 100px;
+}
+
+
+/* boxes */
+.green__box{
+    transform: translate(0,-200px);
+    margin-bottom: 50px;
+}
+
+.purple__box{
+    transform: translate(0,-450px);
+    margin-left: 80px;
+}
+
+.grey__box{
+    position: absolute;
+    width: 58.03px;
+    height: 64px;
+    left: 1193.78px;
+    top: 287px;
+}
+
+.yellow__box{
+    position: absolute;
+    width: 44.03px;
+    height: 49px;
+    left: 1251.81px;
+    top: 193px;
+}
+
+
+/* How to Add */
+.how-to-add-title{
+    display: flex;
+    justify-content: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 800;
+    transform: translate(0,-240px);
+    margin-left: 190px;
+    margin-bottom: 31px;
+}
+
+.screen-1{
+    transform: translate(-33%,-215px);
+    position: relative;
+    left: 33%;
+}
+
+.first-number table tr th {
+    background: #fff;
+    transform: translate(500%,-350px);
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 50%;
+    border: transparent;
+    color: #0D6BD8;
+    font-family: DM Sans;
+}
+
+.number{
+    font-size: 25px;
+}
+
+.how-to-add-text-1{
+    font-family: DM Sans;
+    transform: translate(-40%,-405px);
+    position: relative;
+    left: 40%;
+    width: 293px;
+    height: 112px;
+    margin-left: .5px;
+}
+
+.screen-2{
+    transform: translate(-85%,-900px);
+    position: relative;
+    left: 85%;
+}
+
+.second-number table tr th {
+    background: #fff;
+    transform: translate(1300%,-1050px);
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 50%;
+    border: transparent;
+    color: #0D6BD8;
+    font-family: DM Sans;
+}
+
+.how-to-add-text-2{
+    font-family: DM Sans;
+    transform: translate(-90%,-1110px);
+    position: relative;
+    left: 90%;
+    width: 281px;
+    height: 112px;
+    margin-left: .5px;
+}
+
+.box-green-2{
+    transform: translate(-105%,-1300px);
+    position: relative;
+    left: 105%;
+}
+
+.box-pink{
+    transform: translate(-90%,-1400px);
+    position: relative;
+    left: 90%;
+}
+
+
+
+
+/* vso-stacking-opportunities */
+.vso-stacking-opportunities{
+    width: 1440px;
+    height: 842px;
+    background: #fff;
+    transform: translate(-0,-1200px);
+}
+
+.vso-stacking-opportunities ::selection{
+    color: white;
+}
+
+.vso-stacking-opportunities-title{
+    font-family: Mulish;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    color: #283049;
+    padding-top: 50px;
+}
+
+.vso-stacking-opportunities-subtitle{
+    font-family: Mulish;
+    color: #283049;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    width: 1120px;
+    height: 56px;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-left: 375px;
+}
+
+/* vso-stacking-opportunities-table */
+.vso-stacking-opportunities-table{
+    display: flex;
+    margin-top: 63px;
+}
+
+.staking-pool{
+    color: #1F3E4F;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 400px;
+}
+
+.earn{
+    color: #1F3E4F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 174px;
+}
+
+.apy{
+    color: #1F3E4F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 134px;
+}
+
+.remarks{
+    color: #1F3E4F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 145px;
+}
+
+.star{
+    transform: translate(870px,-90px);
+}
+
+.line__one{
+    transform: translate(350px,-25px);
+}
+
+.staking-pool-inner-one{
+    transform: translate(-670px,60px);
+    color: #1F3E4F;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.staking-pool-inner-two{
+    transform: translate(-780px,200px);
+    color: #1F3E4F;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.staking-pool-inner-three{
+    transform: translate(-880px,290px);
+    color: #1F3E4F;
+    font-weight: 400;
+    font-style: normal;
+}   
+
+.staking-pool-inner-four{
+    transform: translate(-980px,390px);
+    color: #1F3E4F;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
